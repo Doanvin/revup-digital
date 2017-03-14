@@ -1,8 +1,8 @@
 @font-face {
   font-family: ArchivoNarrow-Regular;
   src: url(../font/ArchivoNarrow-Regular.woff2);
-  font-family: Montserrat-ExtraBold;
-  src: url(../font/Montserrat-ExtraBold.ttf); }
+  font-family: Montserrat-Bold;
+  src: url(../font/Montserrat-Bold.ttf); }
 /* Variables */
 html body p {
   font-family: ArchivoNarrow-Regular;
@@ -17,7 +17,7 @@ html body p {
   .navbar ul li {
     color: #fff;
     display: inline;
-    font-family: Montserrat-ExtraBold;
+    font-family: Montserrat-Bold;
     font-size: 1.5rem;
     font-weight: 300;
     list-style: none;
@@ -39,7 +39,7 @@ html body p {
   font-family: ArchivoNarrow-Regular; }
   .homepage h1 {
     color: inherit;
-    font-family: Montserrat-ExtraBold;
+    font-family: Montserrat-Bold;
     font-size: 4rem;
     font-weight: 700;
     padding: 5rem 0 5rem;
@@ -47,14 +47,14 @@ html body p {
     text-shadow: 1px 1px 3px black; }
   .homepage h2 {
     color: inherit;
-    font-family: Montserrat-ExtraBold;
+    font-family: Montserrat-Bold;
     font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
     text-shadow: 1px 1px 3px black; }
 
 footer .footer-top h5 {
-  font-family: Montserrat-ExtraBold;
+  font-family: Montserrat-Bold;
   font-size: 1.25rem;
   font-weight: 100;
   text-align: left; }

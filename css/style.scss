@@ -1,13 +1,13 @@
 @font-face {
   font-family: ArchivoNarrow-Regular;
   src: url(../font/ArchivoNarrow-Regular.woff2);
-  font-family: Montserrat-ExtraBold;
-  src: url(../font/Montserrat-ExtraBold.ttf);
+  font-family: Montserrat-Bold;
+  src: url(../font/Montserrat-Bold.ttf);
 }
 
 /* Variables */
 $home-header-color:#fff;
-$header-font:Montserrat-ExtraBold;
+$header-font:Montserrat-Bold;
 $main-font:ArchivoNarrow-Regular;
 
 html body p{
@@ -75,7 +75,7 @@ footer {
       text-align: left;
     }
     li {
-      font-family: A
+      font-family: $main-font;
     }
   }
 }
