@@ -53,4 +53,12 @@ html body p {
     text-align: center;
     text-shadow: 1px 1px 3px black; }
 
+footer .footer-top h5 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 1.25rem;
+  font-weight: 100;
+  text-align: left; }
+footer .footer-top li {
+  font-family: A; }
+
 /*# sourceMappingURL=style.css.map */
