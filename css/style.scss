@@ -1,10 +1,14 @@
 @font-face {
-  font-family: ArchivoNarrow;
+  font-family: ArchivoNarrow-Regular;
   src: url(../font/ArchivoNarrow-Regular.woff2);
+  font-family: Montserrat-ExtraBold;
+  src: url(../font/Montserrat-ExtraBold.ttf);
 }
 
-html {
-  font-family: ArchivoNarrow;
+html body p{
+  font-family: ArchivoNarrow-Regular;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 /* homepage special css */
@@ -12,7 +16,8 @@ html {
   background-image: url(../img/digital-marketing-sacramento.jpg);
 }
 #homepage-title {
-  font-family: ArchivoNarrow;
+  font-family: Montserrat-ExtraBold;
   font-size: 4rem;
   font-weight:900;
+  text-align: center;
 }
