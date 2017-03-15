@@ -1,11 +1,11 @@
 @font-face {
-  font-family: ArchivoNarrow-Regular;
+  font-family: ArchivoNarrow;
   src: url(../font/ArchivoNarrow-Regular.woff2);
-  font-family: Montserrat-Bold;
-  src: url(../font/Montserrat-Bold.ttf); }
+  font-family: Montserrat;
+  src: url(../font/Montserrat-Regular.ttf); }
 /* Variables */
 html body p {
-  font-family: ArchivoNarrow-Regular;
+  font-family: ArchivoNarrow;
   font-size: 1.5rem;
   font-weight: 400; }
 
@@ -17,8 +17,8 @@ html body p {
   .navbar ul li {
     color: #fff;
     display: inline;
-    font-family: Montserrat-Bold;
-    font-size: 1.5rem;
+    font-family: Montserrat;
+    font-size: 1rem;
     font-weight: 300;
     list-style: none;
     padding: 1.5rem 1rem .5rem;
@@ -36,29 +36,31 @@ html body p {
 
 .homepage {
   color: #fff;
-  font-family: ArchivoNarrow-Regular; }
+  font-family: ArchivoNarrow; }
   .homepage h1 {
     color: inherit;
-    font-family: Montserrat-Bold;
+    font-family: Montserrat;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 900;
     padding: 5rem 0 5rem;
     text-align: center;
     text-shadow: 1px 1px 3px black; }
   .homepage h2 {
     color: inherit;
-    font-family: Montserrat-Bold;
+    font-family: Montserrat;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     text-shadow: 1px 1px 3px black; }
 
 footer .footer-top h5 {
-  font-family: Montserrat-Bold;
+  font-family: Montserrat;
   font-size: 1.25rem;
   font-weight: 100;
   text-align: left; }
+footer .footer-top ul {
+  list-style: none; }
 footer .footer-top li {
-  font-family: A; }
+  font-family: ArchivoNarrow; }
 
 /*# sourceMappingURL=style.css.map */
