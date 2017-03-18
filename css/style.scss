@@ -24,7 +24,13 @@
 }
 
 @mixin content-titles {
-
+  h2 {
+    color: $dark-grey !important;
+    font-family: $header-font !important;
+    font-size: 3rem !important;
+    font-weight:700 !important;
+    padding: 1.5rem 0 1rem !important;
+  }
 }
 
 /* Variables */
@@ -32,6 +38,7 @@ $light-text: #fff;
 $header-font: Montserrat;
 $main-font: ArchivoNarrow;
 $title-shadow: 2px 2px 3px black;
+$dark-grey: #404040;
 
 html body p{
   font-family: $main-font;
@@ -90,6 +97,19 @@ html body p{
 }
 
 /* Single Page CSS*/
+#marketing-bg {
+  background-image: url(../img/digital-marketing-agency.jpg);
+}
+
+.bg-light-red {
+  background-color: #D45757;
+}
+
+.content {
+  @include content-titles;
+
+}
+
 .top-title {
   @include main-title;
   h1, p {
@@ -107,14 +127,6 @@ html body p{
   left: 0;
   bottom: 0;
   right: 0;
-}
-
-#marketing-bg {
-  background-image: url(../img/digital-marketing-agency.jpg);
-}
-
-.bg-light-red {
-  background-color: #D45757;
 }
 
 /* Footer */

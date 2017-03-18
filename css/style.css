@@ -54,6 +54,19 @@ html body p {
     text-shadow: 2px 2px 3px black; }
 
 /* Single Page CSS*/
+#marketing-bg {
+  background-image: url(../img/digital-marketing-agency.jpg); }
+
+.bg-light-red {
+  background-color: #D45757; }
+
+.content h2 {
+  color: #404040 !important;
+  font-family: Montserrat !important;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  padding: 1.5rem 0 1rem !important; }
+
 .top-title h1 {
   font-family: Montserrat;
   font-size: 4rem;
@@ -80,12 +93,6 @@ html body p {
   left: 0;
   bottom: 0;
   right: 0; }
-
-#marketing-bg {
-  background-image: url(../img/digital-marketing-agency.jpg); }
-
-.bg-light-red {
-  background-color: #D45757; }
 
 /* Footer */
 footer .footer-top {
